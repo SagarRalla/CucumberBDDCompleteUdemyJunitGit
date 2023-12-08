@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: Search and place the order for the product
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 27.78 s <<< FAILURE! -- in Search and place the order for the product
+Search and place the order for the product.Search product in both home and offers page #2 -- Time elapsed: 13.10 s <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[No data]> but was:<[Beetroot]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinitions.OfferPageStepDefinition.validate_product_name_matches_with_landing_page(OfferPageStepDefinition.java:45)
+	at ✽.Validate product name matches with landing page(file:///C:/Users/003DQY744/Desktop/Learning/Java_SAP/CucumberBDDCompleteUdemyJunit/src/test/java/featureFiles/SearchProduct.feature:9)
+
